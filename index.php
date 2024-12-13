@@ -14,7 +14,7 @@
     <!-- Barra de Navegação -->
     <nav class="navbar orange">
         <div class="nav-wrapper">
-            <a href="index.php" class="brand-logo"> <img src="fotos/DIA G K.png" alt="logos"> </a>
+            <a href="index.php" class="brand-logo"> <img src="fotos/DIA G K.png"> </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
             </ul>
         </div>
@@ -57,7 +57,7 @@
           <div class="footer-copyright">
             <div class="container">
             © 2024 Insitituto Federal Farroupilha - Campus Uruguaiana
-            <a class="grey-text text-lighten-4 right" href="#!">Desenvolvedores: Bruno de Lima Jorge & Maria Clara B. R. Dedeco Gomes </a>
+            <a class="grey-text text-lighten-4 right" href="#!">Desenvolvedores: Bruno de Lima Jorge & Maria Clara Gomes </a>
             </div>
           </div>
 </footer>
@@ -66,7 +66,6 @@
     <!-- Importando o Materialize JavaScript e o JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/script.js"></script> <!-- Adicione o arquivo JS customizado aqui -->
 </body>
 
 </html>
