@@ -15,25 +15,15 @@ body {
   background-color: #b2b2b2;
 }
 
-.logos{
-  margin-top: 50px;
+.img-dia-gk {
+  width: 205px; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
 }
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img-logo-iff {
+  width: 250px; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+}
 
 
 
