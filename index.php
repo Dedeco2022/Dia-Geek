@@ -14,11 +14,14 @@
     <!-- Barra de Navegação -->
     <nav class="navbar orange">
         <div class="nav-wrapper">
-            <a href="index.php" class="brand-logo"> <img src="fotos/DIA G K.png"> </a>
+            <a href="index.php" class="brand-logo"> <img src="fotos/DIA G K.png" class="img-dia-gk"> </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
             </ul>
         </div>
     </nav>
+    <header> 
+      <p> Local: Instituto Federal Farroupilha - Campus Uruguaiana</p>
+    </header>
 
     <div class="container">
         <div class="row">
@@ -45,7 +48,7 @@
                 <p class="grey-text text-lighten-4"> Projeto Pratico Integrado (PPI) da turma INFO31 - 2024</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text"> <img src="fotos/logoIFF.png"> </h5>
+                <h5 class="white-text"> <img src="fotos/logoIFF.png" class="img-logo-iff"> </h5>
                 <ul>
                 <li><a class="grey-text text-lighten-3" href="#!">Instagram IFFar</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Instagram INFO31</a></li>
