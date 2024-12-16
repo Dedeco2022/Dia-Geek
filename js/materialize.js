@@ -10532,6 +10532,7 @@ $jscomp.polyfill = function (e, r, p, m) {
       }
 
       // Iterate through slides
+
       _this62.$indicators = $('<ul class="indicators"></ul>');
       _this62.$el.find('.carousel-item').each(function (el, i) {
         _this62.images.push(el);
