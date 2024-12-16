@@ -9,21 +9,7 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-body {
-  position: relative;
-  font-family: DMSans, sans-serif;
-  background-color: #b2b2b2;
-}
 
-.img-dia-gk {
-  width: 205px; /* Ajuste conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-}
-
-.img-logo-iff {
-  width: 250px; /* Ajuste conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-}
 
 
 
