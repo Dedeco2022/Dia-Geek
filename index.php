@@ -77,72 +77,118 @@
   </div>
 
 
-  <!-- Carrossel com Cards -->
   <div class="container">
     <div class="carousel">
-      <div class="carousel-item">
+      <div class="carousel-item"><img src="fotos/Just-Dance.jpg"><span class="card-title">Just Dance</span></div>
+      <div class="carousel-item"><img src="fotos/"><span class="card-title">Twister</span></div>
+      <div class="carousel-item"><img src="fotos/"><span class="card-title">CS 1.6 </span></div>
+      <div class="carousel-item"><img src="fotos/"><span class="card-title">Exposição de software opensource</span></div>
+      <div class="carousel-item"><img src="fotos/"><span class="card-title">Jogo de Luta</span></div>
+      <div class="carousel-item"><img src="fotos/MortalKombat.jpg"><span class="card-title">Mortal Kombat 11</span></div>
+      <div class="carousel-item"><img src="fotos/Animes.jpg"><span class="card-title">Animes</span></div>
+      <div class="carousel-item"><img src="fotos/"><span class="card-title">Palestra</span></div>
+      <div class="carousel-item"><img src="fotos/"><span class="card-title">Quiz</span></div>
+      <div class="carousel-item"><img src="fotos/JogosTabuleiro.jpeg"><span class="card-title">Jogos de tabuleiro</span></div>
+      <div class="carousel-item"><img src="fotos/FreeFire.jpg"><span class="card-title">Free Fire</span></div>
+      <div class="carousel-item"><img src="fotos/Cosplays.jpg"><span class="card-title">Concurso de Cosplay</span></div>
+    </div>
+  </div>
+
+
+  <h3> Competições </h3><br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
         <div class="card">
-          <div class="card-image"> <img src="fotos/geek.png"> <span class="card-title">
-              <div class="texto">Campeonato de Counter Strike 1.6</div>
-            </span> </div>
-          <div class="card-content">
-            <a href="https://forms.gle/rBDZ2u8bR1HHepKb9"> Inscreva-se!</a><br>
-            <p>Sala: </p><br>
-            <p>Horário: </p><br>
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
           </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image"> <img src="fotos/example1.png"> <span class="card-title">
-              <div class="texto">Campeonato de Free fire</div>
-            </span> </div>
           <div class="card-content">
-            <a href="https://forms.gle/SgQXy9ro2ZMyK34S8"> Inscreva-se!</a><br>
-            <p>Mais informações geek.</p><br>
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
           </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image"> <img src="fotos/example2.png"> <span class="card-title">
-              <div class="texto">Campeonato de Mortal Kombat 9.</div>
-            </span> </div>
-          <div class="card-content">
-            <a href="https://forms.gle/4E1Vz8BMqv3kHX9G7"> Inscreva-se!</a><br>
-            <p>Mais informações geek.</p><br>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image"> <img src="fotos/example2.png"> <span class="card-title">
-              <div class="texto">Campeonato de Dragon Ball Budokai Tenkaichi 3.</div>
-            </span> </div>
-          <div class="card-content">
-            <a href="https://forms.gle/USXtnKekYfKTRa3E7"> Inscreva-se!</a><br>
-            <p>Mais informações geek.</p><br>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image"> <img src="fotos/example2.png"> <span class="card-title">
-              <div class="texto">Concurso de Cosplay.</div>
-            </span> </div>
-          <div class="card-content">
-            <a href="https://forms.gle/JH6hzBn5HXSCRxAp8"> Inscreva-se!</a><br>
-            <p>Mais informações geek.</p><br>
+          <div class="card-action">
+            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
     </div>
-  </div><br><br>
+
+    <div class="row">
+      <div class="col l6 s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6 s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6 s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6 s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Rodapé -->
   <footer class="page-footer orange">
@@ -157,7 +203,7 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text"> <img src="fotos/logoIFF.png" class="img-logo-iff"> </h5>
           <ul>
-            <li><a class="btn-floating btn-small waves-effect waves-light green" href="https://www.instagram.com/iffar_uruguaiana?igsh=OTYzZ2hrbWU3ZjJj"><i class="material-icons">camera_alt</i> </a> <a href="https://www.instagram.com/iffar_uruguaiana?igsh=OTYzZ2hrbWU3ZjJj" class="white-text text-lighten-3"> Instagram IFFar Ug </a> </li><br>
+            <li><a class="btn-floating btn-small waves-effect waves-light green" href="https://www.instagram.com/iffar_uruguaiana?igsh=OTYzZ2hrbWU3ZjJj"><i class="material-icons">camera_alt</i> </a> <a href="https://www.instagram.com/iffar_uruguaiana?igsh=OTYzZ2hrbWU3ZjJj" class="white-text text-lighten-3"> Instagram IFFar Uruguaiana </a> </li><br>
             <li><a class="btn-floating btn-small waves-effect waves-light green" href="https://www.instagram.com/diageekiffar?igsh=bWh4dnJlcGN3cWl4"><i class="material-icons">camera_alt</i> </a> <a href="https://www.instagram.com/diageekiffar?igsh=bWh4dnJlcGN3cWl4" class="white-text text-lighten-3"> Instagram do evento </a> </li><br>
             <li><a class="btn-floating btn-small waves-effect waves-light green" href="https://www.instagram.com/info31.iffar?igsh=cmdtNXVkMDZucDBx"><i class="material-icons">camera_alt</i> </a> <a href="https://www.instagram.com/info31.iffar?igsh=cmdtNXVkMDZucDBx" class="white-text text-lighten-3"> Instagram INFO31 2024</a> </li>
           </ul>
@@ -177,14 +223,16 @@
   <!-- Importando o Materialize JavaScript e o JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.carousel');
-      M.Carousel.init(elems, {
-        fullWidth: false,
-        indicators: true
-      });
+      var instances = M.Carousel.init(elems, options);
+    });
+
+    // Or with jQuery
+
+    $(document).ready(function() {
+      $('.carousel').carousel();
     });
   </script>
 
