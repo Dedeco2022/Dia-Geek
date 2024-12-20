@@ -11,6 +11,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style>
+    @font-face {
+      font-family: 'RacingSansOne';
+      src: url('fonte/RacingSansOne-Regular.ttf') format('truetype');
+      font-style: normal;
+      font-weight: normal;
+    }
+
     body {
       position: relative;
       background-color: #d4d4d4;
@@ -18,7 +25,12 @@
       margin-top: auto;
       display: flex;
       flex-direction: column;
-      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulos{
+      font-family: RacingSansOne, sans-serif;
+      color: orange;
+      border-radius: black 1px;
     }
 
     .img-dia-gk {
@@ -53,7 +65,6 @@
     .texto {
       color: black;
     }
-
   </style>
 
 </head>
@@ -71,10 +82,10 @@
 
 
   <div class="container">
-    <h1>Informações do evento:</h1>
+    <h1 class="titulos">INFORMAÇÕES DO EVENTO</h1>
     <h4> <a class="btn-floating light green"><i class="material-icons">location_on</i></a> Local: Instituto Federal Farroupilha - Campus Uruguaiana</h4>
     <h4> <a class="btn-floating light green"><i class="material-icons">date_range</i></a> Dia: 25/01/2025</h4>
-    <h1>Atrações:</h1><br>
+    <h1 class="titulos">ATRAÇÕES</h1><br>
   </div>
 
 
@@ -100,7 +111,7 @@
   </div>
 
   <div class="container">
-    <h1> Campeonatos </h1><br><br>
+    <h1 class="titulos"> CAMPEONATOS </h1><br><br>
 
     <div class="row">
 
