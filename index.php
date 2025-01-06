@@ -72,11 +72,8 @@
     .card-title {
       font-family: LemonMilk, sans-serif !important;
       color: black !important;
-      /* Garante que a cor preta seja aplicada */
-      font-size: 1rem !important;
-      /* Diminui o tamanho do título */
+      font-size: 11px !important;
       text-shadow: none !important;
-      /* Remove sombras, caso existam */
       text-align: center !important;
     }
 
@@ -138,7 +135,6 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#campeonatos">Campeonatos</a></li>
         <li><a href="#atracoes">Atrações</a></li>
-        <li><a href="#programacao">Programação</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc88EErvslpy7lyYumEOyadaQWwc7AgJb2vVJYEp_eIVQsEqA/viewform?vc=0&c=0&w=1&flr=0">Convide alguém!</a></li>
       </ul>
     </div>
@@ -147,7 +143,6 @@
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#campeonatos">Campeonatos</a></li>
     <li><a href="#atracoes">Atrações</a></li>
-    <li><a href="#programacao">Programação</a></li>
     <li><a href="#">Convide alguém!</a></li>
   </ul>
 
@@ -180,8 +175,8 @@
       <div class="carousel-item"><img src="fotos/MK9.png">
         <div class="atracao">Campeonato de MortalKombat 9</div>
       </div>
-      <div class="carousel-item"><img src="fotos/MK11.png">
-        <div class="atracao">Campeonato de MortalKombat 11</div>
+      <div class="carousel-item"><img src="fotos/multi.png">
+        <div class="atracao">MultiVersos</div>
       </div>
       <div class="carousel-item"><img src="fotos/RPG.png">
         <div class="atracao">RPG</div>
@@ -213,6 +208,10 @@
       <div class="carousel-item"><img src="fotos/fifa20.png">
         <div class="atracao">FIFA 20</div>
       </div>
+      <div class="carousel-item"><img src="fotos/pes2017.png">
+        <div class="atracao">PES 2017</div>
+      </div>
+
     </div>
   </div>
 
@@ -220,6 +219,21 @@
     <h1 class="titulos" id="campeonatos"> CAMPEONATOS </h1><br>
 
     <div class="row">
+    <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img class="materialboxed" src="fotos/pes2017.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title">PES 2017</span>
+            <p>Sala: Laboratório 1<br>
+              Horário: 08:00</p>
+          </div>
+          <div class="card-action">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh2ofrkLDrDVcUR0VZW7h3rH32DSMhQoRyp19_OXA5FW6x4Q/viewform?vc=0&c=0&w=1&flr=0">Inscreva-se!</a>
+          </div>
+        </div>
+      </div> 
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
@@ -243,11 +257,11 @@
           </div>
           <div class="card-content">
             <span class="card-title">Campeonato de Mortal Kombat 9</span>
-            <p>Sala: 203 <br>
+            <p>Sala: 202 <br>
               Horário: 08:00</p>
           </div>
           <div class="card-action">
-            <a href="https://forms.gle/4E1Vz8BMqv3kHX9G7">Inscreva-se!</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSecFoM0TnxqZBhMtH-Czpn1R42_p4OA4pnVa-goQDqL7nHWxg/viewform?usp=sf_link">Inscreva-se!</a>
           </div>
         </div>
       </div>
@@ -256,15 +270,15 @@
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
-            <img class="materialboxed" src="fotos/MK11.png">
+            <img class="materialboxed" src="fotos/multi.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Campeonato de MortalKombat 11</span>
+            <span class="card-title">MultiVersos</span>
             <p>Sala: 203<br>
               Horário: 08:00 <br> </p>
           </div>
           <div class="card-action">
-            <a href="https://forms.gle/USXtnKekYfKTRa3E7">Inscreva-se!</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc39Nkg1tRvPgU9Ewqav-h6BHK8uzjSbM81fDns0r60pXsRDA/viewform?usp=sf_link">Inscreva-se!</a>
           </div>
         </div>
       </div>
@@ -292,7 +306,7 @@
             <img class="materialboxed" src="fotos/freefire.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Campeonato de <br>Free Fire</span>
+            <span class="card-title">Campeonato de Free Fire</span>
             <p>Sala: 307 <br>
               Horário: 09:00</p>
           </div>
@@ -308,7 +322,7 @@
             <img class="materialboxed" src="fotos/cosplay.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Concurso de <br>Cosplay</span>
+            <span class="card-title">Concurso de Cosplay</span>
             <p>Sala: Área coberta/Refeitório<br>
               Horário: 10:00</p>
           </div>
@@ -317,11 +331,13 @@
           </div>
         </div>
       </div>
+
+
     </div>
 
-    <h1 class="titulos" id="programacao">PROGRAMAÇÃO</h1><br>
+    <!-- <h1 class="titulos" id="programacao">PROGRAMAÇÃO</h1><br> 
 
-    <table class="tabela-programacao">
+     <table class="tabela-programacao">
       <thead>
         <tr>
           <th>Horário</th>
@@ -403,8 +419,8 @@
           <td></td>
           <td></td>
         </tr>
-      </tbody>
-    </table>
+      </tbody> 
+    </table> -->
 
 
 
