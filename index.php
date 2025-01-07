@@ -245,7 +245,7 @@
               Horário: 08:00</p>
           </div>
           <div class="card-action">
-            <a href="https://forms.gle/rBDZ2u8bR1HHepKb9">Inscreva-se!</a>
+            <a href="https://forms.gle/wgJtKPdxpja4zNei7">Inscreva-se!</a>
           </div>
         </div>
       </div>
