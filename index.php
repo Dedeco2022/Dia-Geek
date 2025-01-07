@@ -150,6 +150,7 @@
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#campeonatos">Campeonatos</a></li>
     <li><a href="#atracoes">Atrações</a></li>
+    <li><a href="https://forms.gle/EDcMbRRcudYrc7EaA">Convide alguém!</a></li>
   </ul>
 
 
