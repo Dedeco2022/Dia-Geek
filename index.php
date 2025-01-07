@@ -14,128 +14,135 @@
     @font-face {
       font-family: 'RacingSansOne';
       src: url('fonte/RacingSansOne-Regular.ttf') format('truetype');
-      font-style: normal;
-      font-weight: normal;
     }
 
     @font-face {
       font-family: 'LemonMilk';
       src: url('fonte/LEMONMILK-Bold.otf') format('truetype');
-      font-style: normal;
-      font-weight: normal;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('fonte/Poppins-Light.ttf');
     }
 
     body {
-      position: relative;
-      background-color: #d4d4d4;
-      height: 100%;
-      margin-top: auto;
+      background-color: #fafafa;
+      color: #333;
+      font-family: 'Roboto', sans-serif;
       display: flex;
       flex-direction: column;
+      margin: 0;
     }
 
-    .titulos {
-      font-family: RacingSansOne, sans-serif;
-      color: orange;
+    nav.navbar {
+      background: linear-gradient(135deg, #ff9800, #f57c00);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .img-dia-gk {
-      width: 205px;
-      height: auto;
-    }
-
-    .img-logo-iff {
-      width: 250px;
-      height: auto;
-    }
-
-    /* Aumenta os items do carrossel */
-    .carousel .carousel-item {
-      width: 500px;
-      height: 400px;
-    }
-
-    .atracao {
-      text-align: center;
-      font-family: LemonMilk, sans-serif;
-    }
-
-    .informacoes {
-      font-family: LemonMilk, sans-serif;
-    }
-
-    .informacoes h4 {
-      font-size: 1.5rem;
-      /* Tamanho reduzido */
-    }
-
-    .card-title {
-      font-family: LemonMilk, sans-serif !important;
-      color: black !important;
-      font-size: 11px !important;
-      text-shadow: none !important;
-      text-align: center !important;
-    }
-
-    .card-action a {
-      color: orange !important;
-      font-weight: bold !important;
+    .nav-wrapper ul li a {
+      color: #fff;
+      font-weight: 500;
     }
 
     .brand-logo img {
-      margin-left: 100px !important;
-      margin-top: -2px !important;
+      height: 60px;
+      margin-top: 3px;
+      margin-left: 50px; 
     }
 
-    #nav-mobile li {
-      margin: 0 180px !important;
-      /* Adiciona espaçamento horizontal entre os itens da lista */
-      margin-left: -180px !important;
-    }
-
-    .tabela-programacao {
-      font-size: 12px;
-      /* Tamanho menor do texto */
-      width: 90%;
-      /* Reduzindo a largura total */
-      margin: auto;
-      /* Centraliza a tabela */
-    }
-
-    .tabela-programacao th,
-    .tabela-programacao td {
-      border: 1px solid black;
+    h1.titulos {
+      font-family: 'RacingSansOne', sans-serif;
+      color: #ff5722;
       text-align: center;
+      margin: 20px 0;
+    }
+
+    h4 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .carousel .carousel-item {
+      width: 400px;
+      height: 300px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .carousel .atracao {
+      font-family: 'LemonMilk', sans-serif;
+      color: #ff5722;
       padding: 8px;
-      /* Espaçamento menor nas células */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
     }
 
-    .tabela-programacao th {
-      background-color: #f5f5f5;
+    .card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
     }
 
-    tbody tr:hover {
-      background-color: #e0f7fa;
-      /* Adiciona destaque na linha ao passar o mouse */
+    .card-title {
+      font-family: 'LemonMilk', sans-serif;
+      color: #333;
+      font-size: 1.2rem;
+    }
+
+    .card-action a {
+      color: #ff5722 !important;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .card-image img {
+      transition: transform 0.3s ease;
+    }
+
+    .card-image img:hover {
+      transform: scale(1.05);
+    }
+
+    footer.page-footer {
+      background-color: #ff9800;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer .container h5 img {
+      height: 50px;
+    }
+
+    .card-content .card-title {
+      font-size: 0.75rem;
+      font-family: 'LemonMilk', sans-serif;
+      color: #333;
     }
 
     html {
       scroll-behavior: smooth;
     }
   </style>
-
 </head>
 
 <body>
-
-  <!-- Barra de Navegação -->
-  <nav class="navbar orange">
-    <div class="nav-wrapper"> <a href="index.php" class="brand-logo"> <img src="fotos/DIA G K.png" class="img-dia-gk"> </a>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-wrapper">
+      <a href="index.php" class="brand-logo"><img src="fotos/DIA G K.png" class="img-dia-gk"></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#campeonatos">Campeonatos</a></li>
         <li><a href="#atracoes">Atrações</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc88EErvslpy7lyYumEOyadaQWwc7AgJb2vVJYEp_eIVQsEqA/viewform?vc=0&c=0&w=1&flr=0">Convide alguém!</a></li>
+        <li><a href="https://forms.gle/EDcMbRRcudYrc7EaA">Convide alguém!</a></li>
       </ul>
     </div>
   </nav>
@@ -143,7 +150,6 @@
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#campeonatos">Campeonatos</a></li>
     <li><a href="#atracoes">Atrações</a></li>
-    <li><a href="#">Convide alguém!</a></li>
   </ul>
 
 
@@ -162,9 +168,6 @@
     <div class="carousel">
       <div class="carousel-item"><img src="fotos/justDance.png">
         <div class="atracao">Just Dance</div>
-      </div>
-      <div class="carousel-item"><img src="fotos/twister.png">
-        <div class="atracao">Twister</div>
       </div>
       <div class="carousel-item"><img src="fotos/cs.png">
         <div class="atracao">Campeonato de Counter Strike 1.6</div>
@@ -194,7 +197,7 @@
         <div class="atracao">Jogos de tabuleiro</div>
       </div>
       <div class="carousel-item"><img src="fotos/desenho.png">
-        <div class="atracao">Concurso de desenho?</div>
+        <div class="atracao">Exposição de desenhos</div>
       </div>
       <div class="carousel-item"><img src="fotos/dragonboll.png">
         <div class="atracao">Campeonato de Dragon Ball Budokai Tenkaichi 3</div>
@@ -204,9 +207,6 @@
       </div>
       <div class="carousel-item"><img src="fotos/cosplay.png">
         <div class="atracao">Concurso de Cosplay</div>
-      </div>
-      <div class="carousel-item"><img src="fotos/fifa20.png">
-        <div class="atracao">FIFA 20</div>
       </div>
       <div class="carousel-item"><img src="fotos/pes2017.png">
         <div class="atracao">PES 2017</div>
@@ -219,7 +219,7 @@
     <h1 class="titulos" id="campeonatos"> CAMPEONATOS </h1><br>
 
     <div class="row">
-    <div class="col s12 m6 l4">
+      <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
             <img class="materialboxed" src="fotos/pes2017.png">
@@ -233,14 +233,14 @@
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh2ofrkLDrDVcUR0VZW7h3rH32DSMhQoRyp19_OXA5FW6x4Q/viewform?vc=0&c=0&w=1&flr=0">Inscreva-se!</a>
           </div>
         </div>
-      </div> 
+      </div>
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
             <img class="materialboxed" src="fotos/cs.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Campeonato de Counter Strike 1.6</span>
+            <span class="card-title">Counter Strike 1.6</span>
             <p>Sala: Laboratório 2<br>
               Horário: 08:00</p>
           </div>
@@ -256,7 +256,7 @@
             <img class="materialboxed" src="fotos/MK9.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Campeonato de Mortal Kombat 9</span>
+            <span class="card-title">Mortal Kombat 9</span>
             <p>Sala: 202 <br>
               Horário: 08:00</p>
           </div>
@@ -290,7 +290,7 @@
             <img class="materialboxed" src="fotos/dragonboll.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Campeonato de Dragon Ball Budokai Tenkaichi 3</span>
+            <span class="card-title">Dragon Ball Budokai Tenkaichi 3</span>
             <p>Sala: 304<br>
               Horário: 09:00<br> </p>
           </div>
@@ -306,7 +306,7 @@
             <img class="materialboxed" src="fotos/freefire.png">
           </div>
           <div class="card-content">
-            <span class="card-title">Campeonato de Free Fire</span>
+            <span class="card-title">Free Fire</span>
             <p>Sala: 307 <br>
               Horário: 09:00</p>
           </div>
@@ -331,99 +331,7 @@
           </div>
         </div>
       </div>
-
-
     </div>
-
-    <!-- <h1 class="titulos" id="programacao">PROGRAMAÇÃO</h1><br> 
-
-     <table class="tabela-programacao">
-      <thead>
-        <tr>
-          <th>Horário</th>
-          <th>Lab1</th>
-          <th>Lab2</th>
-          <th>Lab3</th>
-          <th>109</th>
-          <th>202</th>
-          <th>203</th>
-          <th>208</th>
-          <th>302</th>
-          <th>303</th>
-          <th>304</th>
-          <th>306</th>
-          <th>307</th>
-          <th>Biblioteca</th>
-          <th>Área Coberta/Refeitório</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>08:00</td>
-          <td rowspan="5">FIFA 20</td>
-          <td rowspan="5">CS 1.6</td>
-          <td>Exposição de software opensource</td>
-          <td>justDance <br> Twister </td>
-          <td rowspan="5">MortalKombat 9</td>
-          <td rowspan="5">MortalKombat 11</td>
-          <td>Animes</td>
-          <td>Palestra</td>
-          <td rowspan="5">Jogos de tabuleiro</td>
-          <td>Concurso de desenho</td>
-          <td>Animes</td>
-          <td></td>
-          <td>RPGs</td>
-          <td></td>
-        </tr>
-
-        <tr>
-          <td>09:00</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td rowspan="3">Quiz</td>
-          <td rowspan="3">Dragon Ball Budokai Tenkaichi 3</td>
-          <td></td>
-          <td rowspan="3">Free Fire</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>10:00</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>Concurso de Cosplay</td>
-        </tr>
-        <tr>
-          <td>11:00</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-
-        <tr>
-          <td>12:00</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody> 
-    </table> -->
-
-
-
   </div><br>
 
 
@@ -442,7 +350,7 @@
     </div>
   </footer>
 
-  <!-- Importando o Materialize JavaScript e o JQuery -->
+  <!-- Content and Footer will remain similar -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
@@ -450,9 +358,6 @@
       var elems = document.querySelectorAll('.carousel');
       var instances = M.Carousel.init(elems, options);
     });
-
-    // Or with jQuery
-
     $(document).ready(function() {
       $('.carousel').carousel();
     });
@@ -463,9 +368,6 @@
       var elems = document.querySelectorAll('.materialboxed');
       var instances = M.Materialbox.init(elems, options);
     });
-
-    // Or with jQuery
-
     $(document).ready(function() {
       $('.materialboxed').materialbox();
     });
@@ -483,7 +385,6 @@
       $('.sidenav').sidenav();
     });
   </script>
-
 </body>
 
 </html>
