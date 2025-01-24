@@ -260,8 +260,8 @@
           </div>
           <div class="card-content">
             <span class="card-title">Mortal Kombat 9</span>
-            <p>Sala: 202 <br>
-              Horário: 08:00</p>
+            <p>Sala: 203 <br>
+              Horário: 09:00</p>
           </div>
           <div class="card-action">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSecFoM0TnxqZBhMtH-Czpn1R42_p4OA4pnVa-goQDqL7nHWxg/viewform?usp=sf_link">Inscreva-se!</a>
@@ -294,7 +294,7 @@
           </div>
           <div class="card-content">
             <span class="card-title">Dragon Ball Budokai Tenkaichi 3</span>
-            <p>Sala: 304<br>
+            <p>Sala: 203<br>
               Horário: 09:00<br> </p>
           </div>
           <div class="card-action">
