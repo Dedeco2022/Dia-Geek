@@ -179,8 +179,8 @@
       <div class="carousel-item"><img src="fotos/MK9.png">
         <div class="atracao">Campeonato de MortalKombat 9</div>
       </div>
-      <div class="carousel-item"><img src="fotos/multi.png">
-        <div class="atracao">MultiVersos</div>
+      <div class="carousel-item"><img src="fotos/clash.png">
+        <div class="atracao">Clash Royale</div>
       </div>
       <div class="carousel-item"><img src="fotos/RPG.png">
         <div class="atracao">RPG</div>
@@ -212,7 +212,9 @@
       <div class="carousel-item"><img src="fotos/pes2017.png">
         <div class="atracao">PES 2017</div>
       </div>
-
+      <div class="carousel-item"><img src="fotos/pampa.png">
+        <div class="atracao">Pampa RPG</div>
+      </div>
     </div>
   </div>
 
@@ -271,15 +273,15 @@
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-image">
-            <img class="materialboxed" src="fotos/multi.png">
+            <img class="materialboxed" src="fotos/clash.png">
           </div>
           <div class="card-content">
-            <span class="card-title">MultiVersos</span>
-            <p>Sala: 203<br>
-              Horário: 08:00 <br> </p>
+            <span class="card-title">Clash Royale</span>
+            <p>Sala: 208<br>
+              Horário: 10:00 <br> </p>
           </div>
           <div class="card-action">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc39Nkg1tRvPgU9Ewqav-h6BHK8uzjSbM81fDns0r60pXsRDA/viewform?usp=sf_link">Inscreva-se!</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAYG6kuUs38eqLhY_yljpw5JUrvLVGW7zlg0ZrdJKnuiOTrg/viewform?usp=header">Inscreva-se!</a>
           </div>
         </div>
       </div>
@@ -324,11 +326,11 @@
           </div>
           <div class="card-content">
             <span class="card-title">Concurso de Cosplay</span>
-            <p>Sala: Área coberta/Refeitório<br>
+            <p>Sala: 109<br>
               Horário: 10:00</p>
           </div>
           <div class="card-action">
-            <a href="https://forms.gle/JH6hzBn5HXSCRxAp8">Inscreva-se!</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXYDLzovQXCmZHUuQQMcidj6PxcQV66hPiXEGyHsXedA7iGA/viewform?usp=sf_link">Inscreva-se!</a>
           </div>
         </div>
       </div>
